@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
 body {
   font-family: 'montseratt', sans-serif;
 }
@@ -12,7 +17,7 @@ body {
   background-image: url('../../assets/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 1s ease;
 }
 
 .app.warm {
